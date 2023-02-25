@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/beastzx18/Tron">
+    <a href="https://github.com/TronUb/Tron">
         <img src="main/others/resources/images/tron-round.png" height="300" width="300" alt="TronUb">
     </a>
 </p>
