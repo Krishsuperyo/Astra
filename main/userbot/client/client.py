@@ -133,7 +133,7 @@ class SuperClient(Core, Client):
 
             await self.bot.start_assistant()
             await self.start_userbot()
-            print("You successfully deployed Tronuserbot, try .ping or .alive commands to test it.")
+            print("You successfully deployed Astra Userbot, try .ping or .alive commands to test it.")
 
             try:
                 await self.send_start_message()
