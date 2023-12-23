@@ -117,7 +117,7 @@ BOT_TOKEN
 
 5. Install git ```apt-get install git```
 
-6. Clone tronuserbot repo ```git clone https://github.com/Krishsuperyo/Astra```
+6. Clone Astra repo ```git clone https://github.com/Krishsuperyo/Astra```
 
 7. Change directory ```cd Tron```
 
@@ -158,7 +158,7 @@ BOT_TOKEN
 * Run the given command in termux
 
 ``` shell
-apt update && apt upgrade && pkg install python3 git && cd $HOME && git clone https://github.com/TronUb/Tron.git && cd Tron && python3 session.py 
+apt update && apt upgrade && pkg install python3 git && cd $HOME && git clone https://github.com/Krishsuperyo/Astra.git && cd Tron && python3 session.py 
 ```
 
 ---
@@ -206,8 +206,8 @@ async def bot_check_handler(bot, message):
 </details>
 
 <b>Warning ⚠️:</b>
-I will not be responsible for anything that happens with your account, channels, groups, friends, etc, if you get banned or limited it will be your fault, most of time nothing happens. 
+We won't be responsible for anything that happens with your account, channels, groups, friends, etc, if you get banned or limited it will be your fault, most of time nothing happens. 
 
 <br />
 
-<b>• MADE WITH 🎉 BY</b> [࿇•ẞᗴᗩSԵ•࿇](https://t.me/beastzx)
+<b>• MADE WITH ❤️ BY</b> [࿇•𒆜Ꭺʏᴜꜱʜ𒆜•࿇](https://t.me/Mr_Ayush_XD)
