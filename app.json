@@ -1,7 +1,7 @@
 {
-    "name": "Trôn",
-    "description": "Tron Is A Multifunctional Telegram Userbot with Custom Settings.",
-    "logo": "https://telegra.ph/file/8d62a8fe005a8077188ec.jpg",
+    "name": "Astra",
+    "description": "Astra Is A Multifunctional Telegram Userbot with Custom Settings.",
+    "logo": "https://graph.org/file/8cda8bd387064b210dab4.jpg",
     "keywords": [
         "userbot",
         "plugins",
@@ -10,8 +10,8 @@
         "pyrogram",
         "productivity"
     ],
-    "repository": "https://github.com/TronUb/Tron",
-    "website": "https://t.me/tronuserbot",
+    "repository": "https://github.com/Krishsuperyo/Astra",
+    "website": "https://t.me/Astra_News_Updates",
     "success_url": "/welcome",
     "stack": "container",
     "env": {
@@ -26,7 +26,7 @@
             "required": true
         },
         "SESSION": {
-            "description": "Visit here & create https://replit.com/@beastzx18/Tronuserbot-session",
+            "description": "Visit here & create https://t.me/VJStringSessionBot",
             "value": "",
             "required": true
         },
