@@ -77,7 +77,7 @@ async def inline_result(_, inline_query):
         results=[
             InlineQueryResultPhoto(
                 photo_url=app.PmpermitPic,
-                title="Tron Inline security system",
+                title="Astra Inline security system",
                 description="Get tron security system inline menu.",
                 caption=app.PmpermitText,
                 parse_mode=ParseMode.DEFAULT,
@@ -97,7 +97,7 @@ async def inline_result(_, inline_query):
         results=[
             InlineQueryResultPhoto(
                 photo_url=app.BotPic,
-                title="Tron Inline helpdex menu",
+                title="Astra Inline helpdex menu",
                 description="Get your inline helpdex menu.",
                 caption=app.home_tab_string,
                 reply_markup=InlineKeyboardMarkup(
@@ -127,7 +127,7 @@ async def inline_result(_, inline_query):
         results=[
             InlineQueryResultPhoto(
                 photo_url=app.ialive_pic(),
-                title="Tron Inline alive",
+                title="Astra Inline alive",
                 description="Get your inline alive results with buttons.",
                 caption=app.ialive_tab_string,
                 reply_markup=InlineKeyboardMarkup(
@@ -143,7 +143,7 @@ async def inline_result(_, inline_query):
         await inline_query.answer(
         results=[
             InlineQueryResultArticle(
-                title="Tron Inline anime quotes",
+                title="Astra Inline anime quotes",
                 input_message_content=InputTextMessageContent(app.animeQuote()),
                 description="Get infinite anime character quotes through this inline loop button.",
                 reply_markup=InlineKeyboardMarkup(
