@@ -28,7 +28,7 @@ except MIError:
 # Useful information before doing anything
 
 intro = """
-@Tronuserbot Corporation
+@Astra_News_Updates Foundation
 Get the following values by logging to,
 
 https://my.telegram.org
@@ -72,7 +72,7 @@ with Client(
     ) as app:
     app.send_message(
         "me",
-        f"This Is Your Tron Userbot • [ `SESSION` ]\n\n```{app.export_session_string()}```\n\n⚠️• Don't share this with anyone !!\n\nCreate session online • [ Press Here ](https://replit.com/@beastzx18/Tron-Userbot-Session)",
+        f"This Is Your Astra Userbot • [ `SESSION` ]\n\n```{app.export_session_string()}```\n\n⚠️• Don't share this with anyone !!\n\nCreate session online • [ Press Here ](https://replit.com/@beastzx18/Tron-Userbot-Session)",
         disable_web_page_preview=True
     )
     print("\n\nYour String Session Is Successfully Saved In Telegram Saved (Cloud) Messages !! Don't Share It With Anyone!! Anyone having your session can use (Hack) your Telegram Account !")
