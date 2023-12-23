@@ -4,7 +4,7 @@ import os
 
 
 _PMPERMIT_TEXT = """
-Hey ! This is [Tron Userbot](https://t.me/tronuserbot) Security System.
+Hey ! This is [Astra Userbot](https://t.me/Astra_News_Updates) Security System.
 **You will be blocked if you spammed my owner's pm**
 Currently My Owner is busy ! So Wait Until He Arrives.
 And Better Not To Spam His here !
@@ -43,7 +43,7 @@ class Configuration: # pylint: disable=too-few-public-methods
     # add True to enable pmpermit (optional)
     PMPERMIT = os.getenv("PMPERMIT", None)
     # add custom pmpermit pic (optional)
-    PMPERMIT_PIC = os.getenv("PMPERMIT_PIC", "https://telegra.ph/file/eb4d05653b1e6b4798cbb.jpg")
+    PMPERMIT_PIC = os.getenv("PMPERMIT_PIC", "https://graph.org/file/8cda8bd387064b210dab4.jpg")
     # add custom pmpermit warn text (optional)
     PMPERMIT_TEXT = os.getenv("PMPERMIT_TEXT", _PMPERMIT_TEXT)
     # add custom pmpermit warn limit (optional)
@@ -54,8 +54,8 @@ class Configuration: # pylint: disable=too-few-public-methods
     USER_NAME = os.getenv("USER_NAME")
     # your custom bio (default: telegram bio)
     USER_BIO = os.getenv("USER_BIO")
-    # used for alive plugin (default: tronuserbot logo image)
-    USER_PIC = os.getenv("USER_PIC", "https://telegra.ph/file/48f5dc15d51ea7f721275.jpg")
+    # used for alive plugin (default: Astra logo image)
+    USER_PIC = os.getenv("USER_PIC", "https://graph.org/file/8cda8bd387064b210dab4.jpg")
     # add your telegram id if userbot fails to get your user id
     USER_ID = os.getenv("USER_ID")
     # add your username if userbot fails to get your username
@@ -102,14 +102,14 @@ class Configuration: # pylint: disable=too-few-public-methods
     VCBOT_ACCESS = os.getenv("VCBOT_ACCESS", None)
 
 # ---- other ----
-    # your telegraph account name (default: Tronuserbot)
-    TL_NAME = os.getenv("TL_NAME", "Tron UserBot")
+    # your telegraph account name (default: AstraUserbot)
+    TL_NAME = os.getenv("TL_NAME", "Astra UserBot")
     # thumbnail used while uploading plugins, etc. (optional)
-    THUMB_PIC = os.getenv("THUMB_PIC", "./main/core/resources/images/tron-square.png")
+    THUMB_PIC = os.getenv("THUMB_PIC", "./main/core/resources/images/Astra.jpeg")
     # temporary download location (required)
     TEMP_DICT = os.getenv("TEMP_DICT", os.path.abspath(".") + "/downloads/")
     # official repo for updates
-    UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/TronUb/Tron.git")
+    UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/Krishsuperyo/Astra.git")
     # this is used to get your accurate time
     TIME_ZONE = os.getenv("TIME_ZONE", "Asia/Kolkata")
     # toggle this on/off to give/remove access of bot to sudo users
